@@ -1,8 +1,6 @@
 import BoardHome from "./BoardHome";
 import SquareContainer from "./SquareContainer";
 import Arrival from "./Arrival";
-
-import '../styles/style.scss';
 import Pawn from "./Pawn";
 
 export default function Board() {

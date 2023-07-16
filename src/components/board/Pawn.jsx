@@ -1,7 +1,7 @@
-import pawnBlue from '../assets/pawn_blue.png';
-import pawnGreen from '../assets/pawn_green.png';
-import pawnYellow from '../assets/pawn_yellow.png';
-import pawnRed from '../assets/pawn_red.png';
+import pawnBlue from '../../assets/pawn_blue.png';
+import pawnGreen from '../../assets/pawn_green.png';
+import pawnYellow from '../../assets/pawn_yellow.png';
+import pawnRed from '../../assets/pawn_red.png';
 
 export default function Pawn({ color, position = 0 }) {
     const currentPosition = 0;

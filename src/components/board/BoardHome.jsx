@@ -1,7 +1,7 @@
-import homeBlue from "../assets/home_blue.png";
-import homeGreen from "../assets/home_green.png";
-import homeRed from "../assets/home_red.png";
-import homeYellow from "../assets/home_yellow.png";
+import homeBlue from "/src/assets/home_blue.png";
+import homeGreen from "../../assets/home_green.png";
+import homeRed from "../../assets/home_red.png";
+import homeYellow from "../../assets/home_yellow.png";
 
 
 export default function BoardHome({ color, pawns }) {
@@ -14,7 +14,6 @@ export default function BoardHome({ color, pawns }) {
 
     return (
         <div className="home">
-            {/* <img src={images[color]} /> */}
             {pawns}
         </div>
     );
