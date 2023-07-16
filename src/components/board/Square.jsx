@@ -1,3 +1,6 @@
-export default function Square() {
-    return <div className="square"></div>;
+export default function Square({number, pieces, color}) {
+
+    const className = "square " + color;
+
+    return <div className={className}>{pieces}</div>;
 }

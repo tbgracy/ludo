@@ -3,6 +3,7 @@ $base-width: 25px;
 @import "dice.scss";
 
 .side-panel {
+    z-index: 100;
     width: $base-width * 10;
     height: $base-width * 15;
     background-color: beige;
@@ -29,7 +30,7 @@ $base-width: 25px;
             background-size: contain;
             transform: scale(.8);
 
-            &+.current {
+            & + .current {
                 transform: scale(1);
             }
 

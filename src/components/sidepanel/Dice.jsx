@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-export default function Dice() {
+export default function Dice({onClick}) {
     const [activeDice, setActiveDice] = useState(1);
-    
+
     function onDiceClick() {
-        setTimeout(() => {
-            let newDice = Math.floor(Math.random() * 6) + 1;
-            setActiveDice(newDice);
-        }, 100);
+        let number = Math.floor(Math.random() * 6) + 1;
+        setActiveDice(number);
+        onClick(number);
     }
 
     const dices = [];

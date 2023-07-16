@@ -1,11 +1,10 @@
-$base-width: 25px;
+$base-width: 30px;
 
 :root {
 
     .board {
         width: $base-width * 14;
         height: $base-width * 14;
-        background-color: bisque;
         display: flex;
         flex-wrap: wrap;
 
@@ -18,6 +17,26 @@ $base-width: 25px;
                 height: $base-width;
                 border: 1px solid black;
                 box-sizing: border-box;
+
+                & + .blue {
+                    background-color: blue;
+                }
+
+                & + .red {
+                    background-color: red;
+                }
+
+                & + .green {
+                    background-color: green;
+                }
+
+                & + .yellow {
+                    background-color: yellow;
+                }
+
+                & + .white {
+                    background-color: white;
+                }
             }
         }
 
@@ -28,7 +47,6 @@ $base-width: 25px;
             .square-container {
                 width: $base-width * 3;
                 height: $base-width * 6;
-                background-color: red;
             }
         }
 
@@ -38,14 +56,13 @@ $base-width: 25px;
             .square-container {
                 width: $base-width * 6;
                 height: $base-width * 3;
-                background-color: red;
             }
         }
 
         .home {
             width: $base-width * 6;
             height: $base-width * 6;
-            background-color: blue;
+            background-color: rgb(68, 68, 158);
 
             position: relative;
 

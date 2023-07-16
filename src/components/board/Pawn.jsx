@@ -5,8 +5,6 @@ import pawnRed from '../../assets/pawn_red.png';
 
 export default function Pawn({ color, position = 0 }) {
     const currentPosition = 0;
-    
-    console.log(currentPosition);
 
     const images = {
         'blue': pawnBlue,
