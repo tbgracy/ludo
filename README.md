@@ -11,3 +11,5 @@
     - [ ] Add animations
     - [ ] Fix position
     - [ ] Add player info
+     
+As you can see we didn't do much 😀, see you next weekend. 
